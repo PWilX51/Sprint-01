@@ -98,6 +98,32 @@ button {
     color: darkblue;
 }
 
-.isText {
-    display: block;
+@media (max-width: 800px) {
+    .container {
+        flex-direction: column;
+        margin: 20px;
+    }
+
+    #dataenter {
+        font-size: 28px;
+    }
+
+    button {
+        width: 600px;
+    }
+
+    .container-btn {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .copy {
+        width: 600px;
+        height: 400px;
+    }
+
+    #datacopy {
+        font-size: 24px;
+    }
+
 }
